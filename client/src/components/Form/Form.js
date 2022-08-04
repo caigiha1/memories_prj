@@ -33,6 +33,36 @@ const Form = () => {
             setPostData({ ...postData, creator: e.target.value })
           }
         />
+        <TextField
+          name='title'
+          variant='outlined'
+          label='Title'
+          fullWidth
+          value={postData.creator}
+          onChange={(e) =>
+            setPostData({ ...postData, creator: e.target.value })
+          }
+        />
+        <TextField
+          name='message'
+          variant='outlined'
+          label='Message'
+          fullWidth
+          value={postData.creator}
+          onChange={(e) =>
+            setPostData({ ...postData, creator: e.target.value })
+          }
+        />
+        <TextField
+          name='tags'
+          variant='outlined'
+          label='Tags'
+          fullWidth
+          value={postData.creator}
+          onChange={(e) =>
+            setPostData({ ...postData, creator: e.target.value })
+          }
+        />
       </form>
     </Paper>
   );
